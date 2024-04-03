@@ -1,0 +1,68 @@
+.adm_title{
+    width: 100%;
+    background: #333;
+    color:#fff;
+    padding: 5% 0;
+    text-align: center;
+}
+#tab-button-nav {
+    width: 100%;
+    float: left;
+    line-height: 45px;
+    /* border: 1px solid red; */
+    background: #333;
+    color: white;
+}
+.tab-button:hover{
+    background: blue;
+}
+#tab-button-nav::after{
+    content: "";
+    display: block;
+    float: left;
+}
+.tab-button{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+.tab-section{
+    margin-top: 5%;
+}
+table {
+    border: 1px #a39485 solid;
+    font-size: .9em;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 35px;
+  }
+  
+  th {
+    text-align: left;
+  }
+    
+  thead {
+    font-weight: bold;
+    color: #fff;
+    background: #73685d;
+  }
+    
+   td, th {
+    padding: 1em .5em;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+    
+   td {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background: #fff;
+  }
+
+  .btn{
+    width: 100%;
+    text-align: center;
+    padding: 5% 0;
+  }
